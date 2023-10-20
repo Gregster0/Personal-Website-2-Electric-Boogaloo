@@ -1,0 +1,26 @@
+*{
+    color: white;
+    background-color: black;
+    text-align:center;
+}
+
+img{
+    border-style: double;
+    border-width: 10px;
+}
+
+h1{
+    border-style: solid none;
+}
+
+li{
+    font-size: x-large;
+    list-style-type: none;
+}
+
+h2{
+    border-style: solid;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
