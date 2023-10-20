@@ -1,12 +1,30 @@
 *{
     color: white;
     background-color: black;
-    text-align:center;
+    text-align: center;
 }
 
 img{
     border-style: double;
     border-width: 10px;
+}
+
+article{
+    display:flex;
+    border-style: solid;
+    margin: 30px auto;
+}
+
+article > h1{
+    font-size: xx-large;
+    padding: 10%;
+    border-style: none solid none none;
+    margin: 0 ;
+}
+
+article > p{
+    font-size: x-large;
+    padding: 10%;
 }
 
 h1{
@@ -16,6 +34,7 @@ h1{
 li{
     font-size: x-large;
     list-style-type: none;
+    padding: 10%;
 }
 
 h2{
@@ -23,4 +42,49 @@ h2{
     width: 250px;
     margin-left: auto;
     margin-right: auto;
+}
+
+a{
+    transition: background-color 0.5s, color 0.5s;
+    t
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+  }
+
+nav{
+    border-style: solid none;
+    padding:10px;
+    font-size: x-large;
+}
+
+nav > a{
+    margin-left: 6%
+}
+
+@media screen and (max-width: 480px) {
+    article{
+        flex-direction: column;
+
+    }
+
+    article > h1{
+        border-style: none none solid none;
+    }
+    nav{
+        display: list-item;
+    }
+
+    article > h1{
+        font-size: x-large;
+    }
+    article > p{
+        font-size: large;
+    }
+
+    img{
+        max-width: 80vw;
+    }
 }
